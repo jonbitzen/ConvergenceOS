@@ -235,6 +235,7 @@ function install_google_chrome {
 function install_steamos_packages {
     dpkg -i multiarch-support_2.27-3ubuntu1_amd64.deb
     apt-get -y install steamos-compositor steamos-modeswitch-inhibitor steam
+    sed -i 's/'"-steamos"'/'""'/g' /usr/bin/steamos-session
 }
 
 function check_lightdm_install {
@@ -398,8 +399,10 @@ function setup_steam_client {
     
     zenity --info --width 300 --text "${STEAM_INSTALL_TEXT}" --title "Steam Installation"
 
-    xhost +
-    su -c "steam" steam
+    steam
+
+    # xhost +
+    # su -c "steam" steam
 }
 
 function install_optional_apps {
@@ -444,15 +447,15 @@ function setup_convergence_os {
 
     fix_controller_udev_rules
 
-    create_steam_user
+    # create_steam_user
 
-    change_steamos_session_desktop_user
+    # change_steamos_session_desktop_user
 
     add_management_scripts
 
-    modify_desktop_account_service_settings
+    # modify_desktop_account_service_settings
 
-    modify_steam_account_service_settings
+    # modify_steam_account_service_settings
 
     setup_lightdm_conf
 
