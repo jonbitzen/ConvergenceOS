@@ -291,6 +291,7 @@ function install_base_packages {
     apt-get -y install samba
     apt-get -y install pavucontrol
     apt-get -y install vim
+    apt-get -y install python-is-python3
 
     if [ "$LSB_RELEASE_ID" == "LinuxMint" ]; then
         apt-get -y install light-themes
@@ -451,7 +452,7 @@ function setup_convergence_os {
 
     # change_steamos_session_desktop_user
 
-    add_management_scripts
+    # add_management_scripts
 
     # modify_desktop_account_service_settings
 
