@@ -92,8 +92,8 @@ function setup_lightdm_conf {
 LIGHTDM_CONF="
 [Seat:*]
 autologin-guest=false
-autologin-user=${STEAM_USER}
-autologin-user-timeout=0
+# autologin-user=${STEAM_USER}
+# autologin-user-timeout=0
 user-session=steamos-session
 pam-service=lightdm-autologin
 allow-guest=false
@@ -233,6 +233,7 @@ function install_google_chrome {
 }
 
 function install_steamos_packages {
+    dpkg -i multiarch-support_2.27-3ubuntu1_amd64.deb
     apt-get -y install steamos-compositor steamos-modeswitch-inhibitor steam
 }
 
