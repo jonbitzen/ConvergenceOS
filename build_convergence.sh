@@ -398,12 +398,11 @@ function setup_steam_client {
 
     STEAM_INSTALL_TEXT="ConvergenceOS will now install the Steam Desktop Client.  After installation is complete, please login to your Steam account.\n\nOnce your login is successful, please exit the Steam client so that driver detection and installation may continue.\n\nNote that you may need to right-click on Steam icon in the Dock or Task Bar on your desktop and select Quit to fully exit the Steam Desktop Client."
     
+    local DESKTOP_USER=$(logname)
+
     zenity --info --width 300 --text "${STEAM_INSTALL_TEXT}" --title "Steam Installation"
 
-    steam
-
-    # xhost +
-    # su -c "steam" steam
+    su -c "steam" ${DESKTOP_USER}
 }
 
 function install_optional_apps {
