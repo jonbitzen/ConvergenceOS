@@ -1,0 +1,115 @@
+dag@dag-ThinkPad-T430:~/ConvergenceOS$ whoami
+dag
+dag@dag-ThinkPad-T430:~/ConvergenceOS$ cat ~/.logname
+root
+dag@dag-ThinkPad-T430:~/ConvergenceOS$ echo $user >~/.logname
+dag@dag-ThinkPad-T430:~/ConvergenceOS$ rm ~/.logname
+dag@dag-ThinkPad-T430:~/ConvergenceOS$ whoami
+dag
+dag@dag-ThinkPad-T430:~/ConvergenceOS$ ./build_convergence_zenity.sh
+./build_convergence_zenity.sh: line 24: /home/dag/.logname: No such file or directory
+Check for Zenity file and install if not found /usr/bin
+Gtk-Message: 00:42:04.925: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: 00:42:07.369: GtkDialog mapped without a transient parent. This is discouraged.
+60-steam-input.rules	     return-to-steamos.desktop
+build_convergence.sh	     returntosteam.sh
+build_convergence_zenity.sh  smb.conf
+get_driver_id.py	     start-steam-client.desktop
+LICENSE			     start-steam-client.sh
+README.md
+Check for Zenity file and install if not found /usr/bin
+E: Conflicting values set for option Trusted regarding source http://repo.steampowered.com/steamos/ brewmaster
+E: The list of sources could not be read.
+E: Conflicting values set for option Trusted regarding source http://repo.steampowered.com/steamos/ brewmaster
+E: The list of sources could not be read.
+E: Conflicting values set for option Trusted regarding source http://repo.steampowered.com/steamos/ brewmaster
+E: The list of sources could not be read.
+E: Conflicting values set for option Trusted regarding source http://repo.steampowered.com/steamos/ brewmaster
+E: The list of sources could not be read.
+Hit:1 http://repo.steampowered.com/steamos brewmaster InRelease
+Ign:2 http://packages.linuxmint.com tessa InRelease                            
+Hit:3 http://packages.linuxmint.com tessa Release                              
+Hit:4 http://archive.ubuntu.com/ubuntu bionic InRelease                        
+Hit:5 http://archive.canonical.com/ubuntu bionic InRelease                     
+Hit:7 http://security.ubuntu.com/ubuntu bionic-security InRelease        
+Hit:8 http://archive.ubuntu.com/ubuntu bionic-updates InRelease         
+Hit:9 http://archive.ubuntu.com/ubuntu bionic-backports InRelease
+Reading package lists... Done                      
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+Calculating upgrade... Done
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+gdebi is already the newest version (0.9.5.7xmint8).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+ssh is already the newest version (1:7.6p1-4ubuntu0.2).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+samba is already the newest version (2:4.7.6+dfsg~ubuntu-0ubuntu2.6).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+pavucontrol is already the newest version (3.0-4).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+vim is already the newest version (2:8.0.1453-1ubuntu1).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+light-themes is already the newest version (16.10+18.04.20181005-0ubuntu1).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+steam:i386 is already the newest version (1:1.0.0.54+repack-5ubuntu1).
+steamos-compositor is already the newest version (1.35+bsos1).
+steamos-modeswitch-inhibitor is already the newest version (1.10+bsos1).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+adduser: The user `steam' already exists.
+gio: Setting attribute metadata::trusted not supported
+gio: Setting attribute metadata::trusted not supported
+Gtk-Message: 00:42:21.503: GtkDialog mapped without a transient parent. This is discouraged.
+access control disabled, clients can connect from any host
+Running Steam on linuxmint 19.1 64-bit
+STEAM_RUNTIME is enabled automatically
+Pins up-to-date!
+[2019-02-26 00:42:36] Startup - updater built Feb 18 2019 22:08:53
+[2019-02-26 00:42:36] Verifying installation...
+[2019-02-26 00:42:36] Verification complete
+Fatal : VkResult is "ERROR_INITIALIZATION_FAILED" in /home/pgriffais/src/Vulkan/base/vulkanexamplebase.cpp at line 823
+[2019-02-26 00:46:59] Shutdown
+Restarting Steam by request...
+Running Steam on linuxmint 19.1 64-bit
+STEAM_RUNTIME has been set by the user to: /home/steam/.steam/ubuntu12_32/steam-runtime
+Pins up-to-date!
+[2019-02-26 00:46:59] Startup - updater built Feb 18 2019 22:08:53
+[2019-02-26 00:46:59] Verifying installation...
+[2019-02-26 00:46:59] Verification complete
+Fatal : VkResult is "ERROR_INITIALIZATION_FAILED" in /home/pgriffais/src/Vulkan/base/vulkanexamplebase.cpp at line 823
+[2019-02-26 00:47:21] Shutdown
+Gtk-Message: 00:47:21.489: GtkDialog mapped without a transient parent. This is discouraged.
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+mesa-vdpau-drivers is already the newest version (18.2.2-0ubuntu1~18.04.2).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+mesa-vulkan-drivers is already the newest version (18.2.2-0ubuntu1~18.04.2).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Gtk-Message: 00:47:28.777: GtkDialog mapped without a transient parent. This is discouraged.
+dag@dag-ThinkPad-T430:~/ConvergenceOS$ 
+
